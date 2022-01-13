@@ -12,20 +12,20 @@ function App() {
 
     const renderedTranscript = [];
 
-    dialog.transcript.forEach(saying => {
+    dialog.transcript.forEach((saying, index) => {
 
-      const code = <div>
-        <p>{saying.person}</p>
+      const code = <div key={index}>
+        <b>{saying.person}</b>
         {
-          saying.phrases.map(phrase => {
-            return <p onClick={ () => {
+          saying.phrases.map((phrase, index) => {
+            return <p key={index} onClick={ () => {
               const audio = document.getElementById('audio');
               audio.currentTime = phrase.time;
               audio.play();
+              audio.focus();
             }
             }>{phrase.text}</p>
           })
-
         }
 
       </div>
@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div>
-      <audio id="audio" controls autoplay >
+      <audio id="audio" controls>
         <source src={audioURL} type="audio/mpeg"/>
       Your browser does not support the audio element.
       </audio>
