@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Header from '../../components/Header';
 import './styles.scss'
 
@@ -7,23 +7,48 @@ const dialog = require("../../resources/dialog.json")
 
 export default function Episode() {
 
+  const [transcript, setTranscript] = useState(dialog.transcript)
+  const [audioCurrentTime, setAudioCurrentTime] = useState(0)
 
   const audioURL = "https://www.buzzsprout.com/1192367/4381745-001-coffee-a-short-english-conversation-by-dialogue-frog.mp3"
+
+  useEffect(() => {
+    const audio = document.getElementById('audio');
+    // console.log(audio)
+    audio.addEventListener('timeupdate', (element) => {
+      // console.log(element.target.currentTime)
+      setAudioCurrentTime(element.target.currentTime)
+    })
+    // console.log("rodei")
+  }, []);
+
+
+  function checkSelected(startTime, endTime) {
+    if(startTime && endTime) {
+      return (endTime > audioCurrentTime && audioCurrentTime > startTime) ? "playing" : ""
+    }
+    return '';
+  }
 
 
   function renderText() {
 
     const renderedTranscript = [];
 
-    dialog.transcript.forEach((saying, index) => {
+    transcript.forEach((saying, indexSaying) => {
 
-      const code = <div key={index} className='saying' >
+      const code = <div key={indexSaying} className='saying' >
         <p>
 
           <b>{saying.person}:  </b>
           {
             saying.phrases.map((phrase, index) => {
-              return <a className='phrases' key={index} onClick={() => {
+
+              const phraseStartTime = phrase.time;
+              const phraseEndTime = saying.phrases[index+1] ? saying.phrases[index +1].time : ( transcript[indexSaying+1] ? transcript[indexSaying+1].phrases[0].time : null);
+
+
+              return <a className={`phrases ${checkSelected(phraseStartTime, phraseEndTime)}`} key={index} onClick={() => {
                 const audio = document.getElementById('audio');
                 audio.currentTime = phrase.time;
                 audio.play();
@@ -47,7 +72,14 @@ export default function Episode() {
 
   return (
     <>
+    <div style={{ position: 'fixed', 
+    display: 'flex',
+    width: '100%',
+    background: 'green'
+    }}>
       <Header />
+    </div>
+      
 
       <body>
         <div className='episode'>
@@ -76,7 +108,6 @@ export default function Episode() {
 
         </div>
       </body>
-
     </>
   )
 }

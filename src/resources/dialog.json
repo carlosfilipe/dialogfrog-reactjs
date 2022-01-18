@@ -29,8 +29,16 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "Hey everyone, I’m Luke. Nice to meet you.",
+          "text": "Hey everyone,",
           "time": 16.9
+        },
+        {
+          "text": "I’m Luke.",
+          "time": 17.6
+        },
+        {
+          "text": "Nice to meet you.",
+          "time": 18.3
         }
       ]
     },
@@ -38,7 +46,12 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "I think everyone just said, “Nice to meet you too.” But they wanna hear about coffee."
+          "text": "I think everyone just said, “Nice to meet you too.”",
+          "time": 21
+        },
+        {
+          "text": "But they wanna hear about coffee.",
+          "time": 24
         }
       ]
     },
@@ -46,7 +59,8 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "Who doesn’t."
+          "text": "Who doesn’t.",
+          "time": 26.20
         }
       ]
     },
@@ -54,7 +68,16 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "No one. No one doesn’t. Except for maybe the people who prefer tea."
+          "text": "No one.",
+          "time": 28
+        },
+        {
+          "text": "No one doesn’t.",
+          "time": 29
+        },
+        {
+          "text": "Except for maybe the people who prefer tea.",
+          "time": 30.7
         }
       ]
     },
@@ -62,7 +85,16 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "That’s true. Tea is good too, but, I for one, prefer coffee."
+          "text": "That’s true.",
+          "time": 33
+        },
+        {
+          "text": "Tea is good too, but,",
+          "time": 34.4
+        },
+        {
+          "text": "I for one, prefer coffee",
+          "time": 36.7
         }
       ]
     },
@@ -70,7 +102,12 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "I also prefer coffee. How many cups of coffee do you drink a day?"
+          "text": "I also prefer coffee.",
+          "time": 39.7
+        },
+        {
+          "text": "How many cups of coffee do you drink a day?",
+          "time": 41.55
         }
       ]
     },
@@ -78,7 +115,24 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "I…usually between 1 and 4. 4 is probably too much but somedays I just need to get a lot of stuff done. So that’s when I drink a lot of coffee. How about you?"
+          "text": "I…usually between 1 and 4.",
+          "time": 45.5
+        },
+        {
+          "text": "4 is probably too much",
+          "time": 48.8
+        },
+        {
+          "text": "but somedays I just need to get a lot of stuff done.",
+          "time": 49.9
+        },
+        {
+          "text": "So that’s when I drink a lot of coffee.",
+          "time": 52.1
+        },
+        {
+          "text": "How about you?",
+          "time": 54.30
         }
       ]
     },
@@ -86,7 +140,24 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "4 is probably reasonable. Um, lately I don’t even finish one cup. Although I used to drink maybe, I don’t know, 2 or 3 cups."
+          "text": "4 is probably reasonable.",
+          "time": 55
+        },
+        {
+          "text": "Um, lately I don’t even finish one cup.",
+          "time": 56.40
+        },
+        {
+          "text": "Although I used to drink maybe,",
+          "time": 58.8
+        },
+        {
+          "text": "I don’t know,",
+          "time": 61.5
+        },
+        {
+          "text": "2 or 3 cups.",
+          "time": 62.20
         }
       ]
     },
@@ -94,7 +165,12 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "That’s a lot of caffeine by the end of the day."
+          "text": "That’s a lot of caffeine",
+          "time": 63.7
+        },
+        {
+          "text": "by the end of the day.",
+          "time": 65.24
         }
       ]
     },
@@ -102,7 +178,20 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "It is. It is. It can mess with some people who might not be able to sleep. But it is getting to be summer and you know what summer means."
+          "text": "It is. It is.",
+          "time": 66.7
+        },
+        {
+          "text": "It can mess with some people who might not be able to sleep. ",
+          "time": 67.9
+        },
+        {
+          "text": "But it is getting to be summer ",
+          "time": 71.20
+        },
+        {
+          "text": "and you know what summer means.",
+          "time": 72.5
         }
       ]
     },
@@ -110,7 +199,8 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "More coffee."
+          "text": "More coffee.",
+          "time": 74.30
         }
       ]
     },
@@ -118,7 +208,8 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "Specifically, Iced Coffee."
+          "text": "Specifically, Iced Coffee.",
+          "time": 75.8
         }
       ]
     },
@@ -126,7 +217,8 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "Oh yeah."
+          "text": "Oh yeah.",
+          "time": 77.50
         }
       ]
     },
@@ -134,7 +226,8 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "And frozen coffee."
+          "text": "And frozen coffee.",
+          "time": 77.9
         }
       ]
     },
@@ -142,7 +235,8 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "Those are good too."
+          "text": "Those are good too.",
+          "time": 79.30
         }
       ]
     },
@@ -150,7 +244,20 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "I like to make my own iced coffee. I have, its called, its the Toddy Brewer, cold brew system."
+          "text": "I like to make my own iced coffee.",
+          "time": 81.3
+        },
+        {
+          "text": "I have, its called, ",
+          "time": 83.60
+        },
+        {
+          "text": "its the Toddy Brewer, ",
+          "time": 84.60
+        },
+        {
+          "text": "cold brew system.",
+          "time": 85.8
         }
       ]
     },
@@ -158,7 +265,8 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "Oh yeah."
+          "text": "Oh yeah.",
+          "time": 86.9
         }
       ]
     },
@@ -166,7 +274,8 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "Yeah."
+          "text": "Yeah.",
+          "time": 87.4
         }
       ]
     },
@@ -174,7 +283,8 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "Yep."
+          "text": "Yep.",
+          "time": 89
         }
       ]
     },
@@ -182,7 +292,16 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "Course it doesn’t taste as good as Starbucks, or a café but then you have an endless supply of coffee and that’s a good but dangerous thing."
+          "text": "Course it doesn’t taste as good as Starbucks, or a café but ",
+          "time": 89.35
+        },
+        {
+          "text": "then you have an endless supply of coffee ",
+          "time": 94.25
+        },
+        {
+          "text": "and that’s a good but dangerous thing.",
+          "time": 95.67
         }
       ]
     },
@@ -190,7 +309,28 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "That’s true. I kind of like the homemade coffee though because then you can control exactly how it’s made and you know, I- I think you still end up with a pretty good tasting cup of coffee at the end of it."
+          "text": "That’s true.",
+          "time": 97.55
+        },
+        {
+          "text": "I kind of like the homemade coffee though ",
+          "time": 99.05
+        },
+        {
+          "text": "because then you can control exactly  ",
+          "time": 100.59
+        },
+        {
+          "text": "how it’s made and you know, ",
+          "time": 104.15
+        },
+        {
+          "text": "I- I think you still end up with a pretty good tasting cup of coffee ",
+          "time": 106.7
+        },
+        {
+          "text": "at the end of it.",
+          "time": 110.3
         }
       ]
     },
@@ -198,7 +338,24 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "And its more economical. Because if you are buying a coffee everyday that could be between 2 and 5 dollars, so, you get to save the dollars for other things."
+          "text": "And its more economical.",
+          "time": 111.3
+        },
+        {
+          "text": "Because if you are buying a coffee everyday ",
+          "time": 112.50
+        },
+        {
+          "text": "that could be between 2 and 5 dollars, ",
+          "time": 113.9
+        },
+        {
+          "text": "so, ",
+          "time": 117.20
+        },
+        {
+          "text": "you get to save the dollars for other things.",
+          "time": 118.9
         }
       ]
     },
@@ -206,7 +363,16 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "That’s true. So, do you put creamer in your coffee. Or do you drink it with milk or…"
+          "text": "That’s true.",
+          "time": 121.30
+        },
+        {
+          "text": "So, do you put creamer in your coffee. ",
+          "time": 124.73
+        },
+        {
+          "text": "Or do you drink it with milk or…",
+          "time": 128.60
         }
       ]
     },
@@ -214,7 +380,12 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "I am a cream and sugar person. Although lately I am putting less sugar in."
+          "text": "I am a cream and sugar person.",
+          "time": 130.25
+        },
+        {
+          "text": "Although lately I am putting less sugar in.",
+          "time": 132.85
         }
       ]
     },
@@ -222,7 +393,8 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "Hmm."
+          "text": "Hmm.",
+          "time": 135.50
         }
       ]
     },
@@ -230,7 +402,16 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "I think it’s because I’m getting older. It’s that, that thing where you start wanting less sweet. It’s kind of sad."
+          "text": "I think it’s because I’m getting older.",
+          "time": 136.3
+        },
+        {
+          "text": "It’s that, that thing where you start wanting less sweet. ",
+          "time": 137.7
+        },
+        {
+          "text": "It’s kind of sad.",
+          "time": 143.5
         }
       ]
     },
@@ -238,7 +419,28 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "I can’t relate to that because I’m still very young. I’m just kidding. I drink my coffee black. Um, Yeah, cause I gave up the, the sugar and the milk in my coffee a long time ago."
+          "text": "I can’t relate to that",
+          "time": 145.6
+        },
+        {
+          "text": "because I’m still very young. ",
+          "time": 147.05
+        },
+        {
+          "text": "I’m just kidding. ",
+          "time": 151.05
+        },
+        {
+          "text": "I drink my coffee black. ",
+          "time": 151.8
+        },
+        {
+          "text": "Um, Yeah, ",
+          "time": 153.7
+        },
+        {
+          "text": "cause I gave up the, the sugar and the milk in my coffee a long time ago.",
+          "time": 155.40
         }
       ]
     },
@@ -246,7 +448,32 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "Yeah, yeah. That’s one of the, the uh health, uh health properties of coffee I think are always when its black coffee and so whenever you read those scientific articles that say coffee is good for you they are usually referring to 8 ounces of black coffee that’s at reasonable strength."
+          "text": "Yeah, yeah.",
+          "time": 160.2
+        },
+        {
+          "text": "That’s one of the, the uh health, uh health properties of coffee ",
+          "time": 163.2
+        },
+        {
+          "text": "I think are always when its black coffee ",
+          "time": 166.2
+        },
+        {
+          "text": "and so whenever you read those scientific articles that say ",
+          "time": 168.8
+        },
+        {
+          "text": "coffee is good for you ",
+          "time": 171.5
+        },
+        {
+          "text": "they are usually referring to 8 ounces of black coffee ",
+          "time": 173.20
+        },
+        {
+          "text": "that’s at reasonable strength.",
+          "time": 177.8
         }
       ]
     },
@@ -254,7 +481,8 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "Yeah."
+          "text": "Yeah.",
+          "time": 179.8
         }
       ]
     },
@@ -262,7 +490,16 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "Because how much coffee you add changes the strength of it and then of course that changes the caffeine."
+          "text": "Because how much coffee you add",
+          "time": 181.2
+        },
+        {
+          "text": "changes the strength of it ",
+          "time": 182.18
+        },
+        {
+          "text": "and then of course that changes the caffeine.",
+          "time": 183.40
         }
       ]
     },
@@ -270,7 +507,16 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "Yeah. I always like to forget those though and usually I just end up drinking as much as I can, so,"
+          "text": "Yeah.",
+          "time": 186
+        },
+        {
+          "text": "I always like to forget those though ",
+          "time": 187.5
+        },
+        {
+          "text": "I'm usually I just end up drinking as much as I can, so,",
+          "time": 189
         }
       ]
     },
@@ -278,7 +524,8 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "That, I think a lot of people do that."
+          "text": "That, I think a lot of people do that.",
+          "time": 194.5
         }
       ]
     },
@@ -286,7 +533,28 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "That’s true. That’s easy to do at a, at a, co-, at a café or something when they give you generous portions and- or like bottomless cups of coffee at a restaurant and then-"
+          "text": "That’s true.",
+          "time": 196.55
+        },
+        {
+          "text": "That’s easy to do at a, ",
+          "time": 199.25
+        },
+        {
+          "text": "at a, co-, ",
+          "time": 203
+        },
+        {
+          "text": "at a café or something ",
+          "time": 203.65
+        },
+        {
+          "text": "when they give you generous portions ",
+          "time": 205.05
+        },
+        {
+          "text": "and- or like bottomless cups of coffee at a restaurant and then-",
+          "time": 208
         }
       ]
     },
@@ -294,7 +562,8 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "Yeah."
+          "text": "Yeah.",
+          "time": 212
         }
       ]
     },
@@ -302,7 +571,8 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "You just keep end up drinking it."
+          "text": "You just keep end up drinking it.",
+          "time": 212.2
         }
       ]
     },
@@ -310,7 +580,12 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "Yeah, its dangerous to order the bottomless cup."
+          "text": "Yeah,",
+          "time": 213.5
+        },
+        {
+          "text": "its dangerous to order the bottomless cup.",
+          "time": 213.8
         }
       ]
     },
@@ -318,7 +593,8 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "Mm-hmm."
+          "text": "Mm-hmm.",
+          "time": 216.5
         }
       ]
     },
@@ -326,7 +602,25 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "Yep. Okay, well, that’s the end of our short conversation because we are about to hit a long conversation. Thank you for joining us today and we hope to see you on the next episode."
+          "text": "Yep.",
+          "time": 217.6
+        },
+        {
+          "text": "Okay, well, that’s the end of our short conversation ",
+          "time": 218.8
+        },
+
+        {
+          "text": "because we are about to hit a long conversation. ",
+          "time": 221.95
+        },
+        {
+          "text": "Thank you for joining us today ",
+          "time": 224.25
+        },
+        {
+          "text": "and we hope to see you on the next episode.",
+          "time": 225.25
         }
       ]
     },
@@ -334,7 +628,8 @@
       "person": "Luke",
       "phrases": [
         {
-          "text": "Yep."
+          "text": "Yep.",
+          "time": 227.2
         }
       ]
     },
@@ -342,7 +637,8 @@
       "person": "Emma",
       "phrases": [
         {
-          "text": "Of Dialogue Frog."
+          "text": "Of Dialogue Frog.",
+          "time": 227.5
         }
       ]
     }

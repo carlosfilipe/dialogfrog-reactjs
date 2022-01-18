@@ -2,11 +2,13 @@ header {
   background-color: white;
   // background-color: blue;
   height: 100px;
+  width: 100%;
   display: flex;
   padding: 5px 10%;
 
   align-items: center;
   justify-content: space-between;
+  
 
   .nav-items {
     .nav-item {

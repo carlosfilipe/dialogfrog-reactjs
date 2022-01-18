@@ -3,6 +3,16 @@ body {
 
   display: flex;
 
+  audio {
+    position: fixed;
+
+    background-color: white;
+    display: flex;
+    width: 90%;
+    padding: 30px 0px;
+    margin-top: 110px;
+  }
+
   .episode {
     background-color: white;
     display: flex;
@@ -13,7 +23,7 @@ body {
     // background-color: blue;
     max-width: 90%;
     display: flex;
-    margin-top: 50px;
+    margin-top: 300px;
     
     .side-options {
       min-width: 270px;
@@ -48,6 +58,11 @@ body {
         &:hover {
           background-color: rgba(32,152,55,0.3) ;
         }
+      }
+
+      .playing {
+        background-color: rgba(32,152,55,0.3) ;
+
       }
 
       .saying {
