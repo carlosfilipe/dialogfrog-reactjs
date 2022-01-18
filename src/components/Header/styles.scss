@@ -1,0 +1,25 @@
+header {
+  background-color: white;
+  // background-color: blue;
+  height: 100px;
+  display: flex;
+  padding: 5px 10%;
+
+  align-items: center;
+  justify-content: space-between;
+
+  .nav-items {
+    .nav-item {
+      padding: 40px 20px;
+      color: #209837;
+      text-decoration: none;
+    }
+  }
+
+  img {
+    display: flex;
+    height: 100%;
+  }
+}
+
+
