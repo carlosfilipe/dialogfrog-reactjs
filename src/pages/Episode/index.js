@@ -47,8 +47,8 @@ export default function Episode() {
               const phraseStartTime = phrase.time;
               const phraseEndTime = saying.phrases[index+1] ? saying.phrases[index +1].time : ( transcript[indexSaying+1] ? transcript[indexSaying+1].phrases[0].time : null);
 
-
-              return <a className={`phrases ${checkSelected(phraseStartTime, phraseEndTime)}`} key={index} onClick={() => {
+              // eslint-disable-next-line
+              return <a href="#" className={`phrases ${checkSelected(phraseStartTime, phraseEndTime)}`} key={index} onClick={() => {
                 const audio = document.getElementById('audio');
                 audio.currentTime = phrase.time;
                 audio.play();
@@ -92,7 +92,8 @@ export default function Episode() {
           <div className='content'>
             <div className='side-options'>
               <div className='option'>
-                <a href=''>Read the transcript:</a>
+              // eslint-disable-next-line
+                <a onClick={() => {}}>Read the transcript:</a>
               </div>
 
             </div>
