@@ -1,30 +1,29 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Header from '../../components/Header';
 import './styles.scss'
 
-const dialog = require("../../resources/dialog.json")
+// const dialog = require("../../resources/dialog.json")
+const dialog = require("../../resources/dialog2.json")
 
+const AUDIO_URL = "https://audio.buzzsprout.com/nvj4qy4c5yhqefqmpmf1jceyjbhb"
+// const AUDIO_URL = "https://www.buzzsprout.com/1192367/4381745-001-coffee-a-short-english-conversation-by-dialogue-frog.mp3"
 
 export default function Episode() {
 
   const [transcript, setTranscript] = useState(dialog.transcript)
   const [audioCurrentTime, setAudioCurrentTime] = useState(0)
 
-  const audioURL = "https://www.buzzsprout.com/1192367/4381745-001-coffee-a-short-english-conversation-by-dialogue-frog.mp3"
+  const audio = useRef();
 
   useEffect(() => {
-    const audio = document.getElementById('audio');
-    // console.log(audio)
-    audio.addEventListener('timeupdate', (element) => {
-      // console.log(element.target.currentTime)
+    audio.current.addEventListener('timeupdate', (element) => {
       setAudioCurrentTime(element.target.currentTime)
     })
-    // console.log("rodei")
   }, []);
 
 
   function checkSelected(startTime, endTime) {
-    if(startTime && endTime) {
+    if (startTime && endTime) {
       return (endTime > audioCurrentTime && audioCurrentTime > startTime) ? "playing" : ""
     }
     return '';
@@ -45,18 +44,18 @@ export default function Episode() {
             saying.phrases.map((phrase, index) => {
 
               const phraseStartTime = phrase.time;
-              const phraseEndTime = saying.phrases[index+1] ? saying.phrases[index +1].time : ( transcript[indexSaying+1] ? transcript[indexSaying+1].phrases[0].time : null);
+              const phraseEndTime = saying.phrases[index + 1] ? saying.phrases[index + 1].time : (transcript[indexSaying + 1] ? transcript[indexSaying + 1].phrases[0].time : null);
 
 
               return <a className={`phrases ${checkSelected(phraseStartTime, phraseEndTime)}`} key={index} onClick={() => {
-                const audio = document.getElementById('audio');
-                audio.currentTime = phrase.time;
-                audio.play();
-                audio.focus();
+                console.log(audio.current)
+                audio.current.currentTime = phrase.time;
+                audio.current.play();
+                audio.current.focus();
               }
-            }> {phrase.text}</a>
-          })
-        }
+              }> {phrase.text}</a>
+            })
+          }
         </p>
 
       </div>
@@ -66,25 +65,25 @@ export default function Episode() {
 
     });
 
-
     return renderedTranscript;
   }
 
   return (
     <>
-    <div style={{ position: 'fixed', 
-    display: 'flex',
-    width: '100%',
-    background: 'green'
-    }}>
-      <Header />
-    </div>
-      
+      <div style={{
+        position: 'fixed',
+        display: 'flex',
+        width: '100%',
+        background: 'green'
+      }}>
+        <Header />
+      </div>
+
 
       <body>
         <div className='episode'>
-          <audio id="audio" controls>
-            <source src={audioURL} type="audio/mpeg" />
+          <audio id="audio" ref={audio} controls>
+            <source src={AUDIO_URL} type="audio/mpeg" />
             Your browser does not support the audio element.
           </audio>
 
